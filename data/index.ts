@@ -1,7 +1,7 @@
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Features", link: "#features" },
-  { name: "Join Us", link: "#contact" },
+  { name: "Join us", link: "#contact" },
 ];
 
 export const gridItems = [

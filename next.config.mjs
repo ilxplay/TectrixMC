@@ -6,12 +6,7 @@ export default (phase) => {
    * @type {import('next').NextConfig}
    */
   const nextConfig = {
-    experimental: {
-      forceSwcTransforms: true,
-    },
     output: "export",
-    basePath: isDev ? undefined : "/TectrixMC",
-    assetPrefix: isDev ? undefined : "/TectrixMC",
     images: {
       unoptimized: true,
     },
