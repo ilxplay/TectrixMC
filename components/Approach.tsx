@@ -1,6 +1,5 @@
 import React from "react";
 import { AnimatePresence, motion } from "framer-motion";
-
 import { CanvasRevealEffect } from "./ui/CanvasRevealEffect";
 
 const Approach = () => {
@@ -16,11 +15,9 @@ const Approach = () => {
           icon={<AceternityIcon order="Principle 1" />}
           des="Our meta is to achieve best possible Minecraft experience without any P2W functionality,
           we believe that the best impressions come from fair and balanced gameplay."
-          
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
-
             containerClassName="bg-emerald-900 rounded-3xl overflow-hidden"
           />
         </Card>
@@ -73,7 +70,6 @@ const Card = ({
     <div
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
-
       className="border border-black/[0.2] group/canvas-card flex items-center justify-center
        dark:border-white/[0.2]  max-w-sm w-full mx-auto p-4 relative lg:h-[35rem] rounded-3xl "
       style={{
@@ -82,7 +78,6 @@ const Card = ({
           "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
       }}
     >
-
       <Icon className="absolute h-10 w-10 -top-3 -left-3 dark:text-white text-black opacity-30" />
       <Icon className="absolute h-10 w-10 -bottom-3 -left-3 dark:text-white text-black opacity-30" />
       <Icon className="absolute h-10 w-10 -top-3 -right-3 dark:text-white text-black opacity-30" />
@@ -143,7 +138,6 @@ const AceternityIcon = ({ order }: { order: string }) => {
         </span>
       </button>
     </div>
-
   );
 };
 
@@ -158,7 +152,11 @@ export const Icon = ({ className, ...rest }: any) => {
       className={className}
       {...rest}
     >
-      <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v12m6-6H6" />
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        d="M12 6v12m6-6H6"
+      />
     </svg>
   );
 };

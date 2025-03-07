@@ -1,6 +1,7 @@
 "use client";
 import { cn } from "@/lib/utils";
 import { useEffect, useRef, useState } from "react";
+import React from "react";
 
 export const BackgroundGradientAnimation = ({
   gradientBackgroundStart = "rgb(108, 0, 162)",
@@ -107,7 +108,10 @@ export const BackgroundGradientAnimation = ({
               values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -8"
               result="goo"
             />
-            <feBlend in="SourceGraphic" in2="goo" />
+            <feBlend
+              in="SourceGraphic"
+              in2="goo"
+            />
           </filter>
         </defs>
       </svg>
