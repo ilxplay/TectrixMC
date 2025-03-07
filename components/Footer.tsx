@@ -1,6 +1,7 @@
 import { FaDiscord } from "react-icons/fa";
 //import { socialMedia } from "@/data";
 import MagicButton from "./MagicButton";
+import React from "react";
 
 const Footer = () => {
   const discordInviteLink = "https://discord.com/invite/XkWmXWTcwD";
