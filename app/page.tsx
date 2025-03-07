@@ -19,7 +19,7 @@ const Home = () => {
       <link rel="icon" href="faviconTectrix.ico" />
       </Head>
       <div className="max-w-7xl w-full">
-        {/*<FloatingNav navItems={navItems} /> */} {/* potential fix for vercel */}
+        <FloatingNav navItems={navItems} />
         <Hero />
         <Grid />
         {/*<Players />*/}
