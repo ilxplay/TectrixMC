@@ -21,7 +21,7 @@
     "framer-motion": "^11.18.2",
     "lucide-react": "^0.365.0",
     "mini-svg-data-uri": "^1.4.4",
-    "next": "14.1.4",
+    "next": "^14.2.24",
     "next-themes": "^0.3.0",
     "react": "^18",
     "react-dom": "^18",
@@ -33,7 +33,7 @@
     "tailwindcss-animate": "^1.0.7",
     "three": "^0.173.0",
     "three-globe": "^2.41.12",
-    "vercel": "^34.0.0"
+    "vercel": "^41.3.2"
   },
   "devDependencies": {
     "@eslint/js": "^9.20.0",
